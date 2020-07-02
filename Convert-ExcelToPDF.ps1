@@ -1,4 +1,4 @@
-# Excel naar PDF
+# Excel to PDF conversion script
 # Shippingport
 # Originally written March 3, 2019
 
@@ -71,7 +71,7 @@ Function Output-ToPDF($Files)
     } else {
     Write-Host "No files selected!"
 
-    $retry = Read-Host "Retry?? [y/N]"
+    $retry = Read-Host "Retry? [y/N]"
     if ($retry -eq 'y|Y')
         {
             Start-ExcelToPDFConversion
