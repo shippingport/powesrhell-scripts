@@ -12,6 +12,5 @@ The main Autopilot Assistant file. Used to create the GUI using a single thread.
 The directory that holds the script files to be called from the main file.
 ###### Resources
 A folder that may be used to store additional resources, such as branding or configuration files, such as logo.png or enrollment-wifi.xml.
-https://github.com/shippingport/powershell-scripts/blob/master/Other/APAssistantMainDialog.png
 
 ![Autopilot Assistant main dialog](https://github.com/shippingport/powershell-scripts/blob/master/Other/APAssistantMainDialog.png?raw=true)
