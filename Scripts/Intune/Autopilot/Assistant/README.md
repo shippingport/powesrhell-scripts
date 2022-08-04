@@ -14,4 +14,4 @@ The directory that holds the script files to be called from the main file.
 A folder that may be used to store additional resources, such as branding or configuration files, such as logo.png or enrollment-wifi.xml.
 https://github.com/shippingport/powershell-scripts/blob/master/Other/APAssistantMainDialog.png
 
-!(https://github.com/shippingport/powershell-scripts/blob/master/Other/APAssistantMainDialog.png?raw=true)
+![Autopilot Assistant main dialog](https://github.com/shippingport/powershell-scripts/blob/master/Other/APAssistantMainDialog.png?raw=true)
