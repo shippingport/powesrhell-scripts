@@ -143,7 +143,7 @@ Function ArchiveAndDownloadFiles
         Move-Item -Path "$LOCAL_Storage_Path\NewestFile.json" -Destination "$LOCAL_Storage_Path\Archive\$archiveFilename"
         Download-SFTPFiles
 
-        $fileToRename = (Get-ChildItem -Path $LOCAL_Storage_Path -Recurse -Filter "Data_*").FullName[0]
+        $fileToRename = (Get-ChildItem -Path $LOCAL_Storage_Path -Recurse -Filter "NewestFile*").FullName[0]
         Rename-Item -Path $fileToRename -NewName "NewestFile.json"
     }
 }
