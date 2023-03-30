@@ -1,5 +1,7 @@
 # Autopilot Assistant
 
+## This fork is deprecated. Please use the new AutoPilot Assistant files from [here](https://github.com/shippingport/Autopilot-Assistant).
+
 Autopilot Assistant is a small script with a GUI that can be used to trigger some commonly used Autopilot-related automations.
 
 ### Usage
